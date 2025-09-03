@@ -21,7 +21,7 @@ const navLink: NavLinkItem[] = [
 
 const Navbar: FC = () => {
   return (
-    <nav className="flex justify-between items-center px-4 md:px-8 py-3 bg-gray-900 shadow-md">
+    <nav className="flex justify-between items-center px-4 md:px-8 py-3 bg-white shadow-md">
       {/* Logo gradient */}
       <Link
         to="/"
@@ -40,10 +40,10 @@ const Navbar: FC = () => {
                 <NavLink
                   to={item.path}
                   className={({ isActive }) =>
-                    `flex items-center gap-2 px-3 py-1 rounded-md transition-colors ${
+                    `flex items-center gap-1 px-3 py-1 rounded-md transition-colors ${
                       isActive
-                        ? "bg-white text-gray-900 font-semibold"
-                        : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                        ? "bg-white text-purple-900 font-semibold"
+                        : "text-gray-800 hover:bg-purple-100 hover:text-gray-900"
                     }`
                   }
                 >
@@ -60,7 +60,7 @@ const Navbar: FC = () => {
         {/* User Avatar */}
         <Link
           to="/profile"
-          className="w-8 h-8 rounded-full flex justify-center items-center bg-gray-700 text-gray-200 hover:bg-gray-500 transition-colors cursor-pointer"
+          className="w-8 h-8 rounded-full flex justify-center items-center bg-indigo-200 text-78o7l77ol97h-800 hover:bg-gray-500 transition-colors cursor-pointer"
         >
           <AiOutlineUser size={18} />
         </Link>
