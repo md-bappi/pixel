@@ -1,7 +1,6 @@
 @import "tailwindcss";
-
+/* 
 :root {
-  /* Light Theme */
   --color-bg: #ffffff;
   --color-text: #1f2937;
   --color-text-light: #4b5563;
@@ -15,7 +14,6 @@
 }
 
 [data-theme="dark"] {
-  /* Dark Theme */
   --color-bg: #1f2937;
   --color-text: #f9fafb;
   --color-text-light: #d1d5db;
@@ -26,4 +24,4 @@
   --color-logo-gradient-to: #4f46e5;
   --color-avatar-bg: #374151;
   --color-avatar-text: #f9fafb;
-}
+} */

@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/navigation/Navbar";
 import Footer from "./components/Footer";
+import ImageDetails from "./pages/ImageDetails";
 
 const App = () => {
   return (
@@ -17,12 +18,16 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Gallery />} />
+          <Route path="/images/:id" element={<ImageDetails />} />
+
           <Route path="/uploads" element={<Uploads />} />
           <Route path="/favourites" element={<Favorites />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/profile" element={<Profile />} />
+
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
