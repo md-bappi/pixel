@@ -6,9 +6,9 @@ type TitleProps = {
 
 const Title = ({ title, count, des }: TitleProps) => {
   return (
-    <div className="mb-4">
+    <div className="mb-4 py-4">
       {/* Title Row */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-4">
         <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-600 capitalize">
           {title}
         </h2>
@@ -20,9 +20,7 @@ const Title = ({ title, count, des }: TitleProps) => {
       </div>
 
       {/* Description */}
-      {des && (
-        <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">{des}</p>
-      )}
+      {des && <p className="text-gray-400  text-sm mt-3">{des}</p>}
     </div>
   );
 };

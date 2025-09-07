@@ -72,7 +72,7 @@ const images = [
 const UploadedImages = () => {
   // if (!images.length) return <p>No images available</p>;
   return (
-    <div className=" bg-gray-900 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+    <div className=" bg-gray-900 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
       {images.map((image) => (
         <div className="bg-gray-800  text-white rounded-xl shadow-xs overflow-hidden  hover:shadow-sm hover:shadow-indigo-400 transition cursor-pointer group">
           <img

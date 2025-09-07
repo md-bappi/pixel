@@ -6,7 +6,7 @@ const Uploads = () => {
   const [activeTab, setActiveTab] = useState<"new" | "my">("new");
 
   return (
-    <div className="p-6 bg-gray-900 text-white py-5 shadow-lg min-h-[200vh]">
+    <div className="p-6 bg-gray-900 text-white py-5 shadow-lg min-h-screen">
       <div className="w-full md:container md:mx-auto md:max-w-8/12">
         {/* Header */}
         <div className="my-6 md:my-8">
