@@ -1,7 +1,7 @@
 import { CiCamera } from "react-icons/ci";
 import { PiUploadSimpleLight } from "react-icons/pi";
 import { CiHeart } from "react-icons/ci";
-import { AiOutlineUser } from "react-icons/ai";
+// import { AiOutlineUser } from "react-icons/ai";
 import { Link, NavLink } from "react-router-dom";
 import type { FC, JSX } from "react";
 
@@ -58,11 +58,15 @@ const Navbar: FC = () => {
         </ul>
 
         {/* User Avatar */}
-        <Link
+        {/* <Link
           to="/profile"
           className="w-8 h-8 rounded-full flex justify-center items-center bg-gray-700 text-gray-200 hover:bg-gray-500 transition-colors cursor-pointer"
         >
           <AiOutlineUser size={18} />
+        </Link> */}
+
+        <Link to="/signup" className=" text-white hover:text-gray-300">
+          Sign Up
         </Link>
       </div>
     </nav>
